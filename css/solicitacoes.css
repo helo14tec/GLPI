@@ -1,73 +1,191 @@
 *{
+    font-family: 'Franklin Gothic';
+    border: 0;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: #cddee1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main{
-    width: 100%;
     max-width: 1200px;
-    background-color: #18aac4;
-    height: 600px;
 }
-nav {
+
+body,html {
+    background-color: #ffffff;
     width: 100%;
-    height: 50px;
-    background-color: #000000;
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
-
 }
-nav ul li{
-    list-style: none;
-
-}
-nav ul li a {
-    
-        color: #fefefe;
-        text-decoration: none;
-        padding: 0 20px;
-  } 
-nav ul li a:hover {
-    color:aqua
-}
-
-header{
+main {
     width: 100%;
-    height: 150px;
-    background-color: #97cbd4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    background-color: #f5f7fb;
+    margin: auto;
+    overflow: visible;
 }
-header img{
-    width: 200px;
-    height: auto;
-
+#menu1 {
+    position: fixed;
+    background: #97CBD4;
+    width: 13.1%;
+    height: 100%;
+    font-size: 16px;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    float: left;
+    z-index: 100;
+}  
+#MenuIcon{
+    width: 60%;
+    margin: 5% 20%;
 }
-section {
+#botao1 {
     width: 100%;
-    height: 400px;
-    background-color: #fefefe;
-
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: #4a9138;
+    color: #ffffff;
+    font-size: 20px;
 }
-footer{
+#menu1 li{
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    color: #ffffff;
     width: 100%;
-    height: 90px;
-    background-color: #97cbd4;
+    padding-left: 15%;
 }
-footer p{
+#menu1 li:hover {
+    background-color: #1f9db2;
+    cursor: pointer;
+}
+#inicio {
+    width: 100%;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: #4a9138;
+    color: #ffffff;
+    font-size: 20px;
+}
+#botao1:hover {
+    background-color: #52a33e;
+}
+
+#texto_botao1 {
+    font-family: sans-serif;
+}
+#menu2 {
+    max-width: 5000px;
+    width: 2500px;
+    height: 75px;
+    left: 330px;
+    position: fixed;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px #8a8a8abf;
+    clip-path: inset(0 0 -15px 0);
+    float: left;
     text-align: center;
-    line-height: 90px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.1em;
+}
+#menu2 a{
+    height: 50px;
+    float: left;
+    background-color: #ddd;
+    color: black;
+    padding: 25px 40px 0;
+    font-size: 20px;
+}
+#pontos_deco {
+    z-index: 7;
+    position:fixed;
+    top: 22%;
+    left: 255px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+#adicionar {
+    z-index: 7;
+    font-size: 25px;
+    position: fixed;
+    top: 14%;
+    left: 14%;
+}
+#acompanhamento {
+    width: 120px;
+    height: 25px;
+    position: fixed;
+    top: 135px;
+    left: 18.5%;
+    background-color: #c2c2c2;
+}
+#acompanhamento:hover {
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+#documento {
+    width: 80px;
+    height: 25px;
+    position: fixed;
+    top: 135px;
+    left: 25%;
+    background-color: #c2c2c2;
+}
+#documento:hover {
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+#historico {
+    z-index: 7;
+    font-size: 25px;
+    position: fixed;
+    top: 25%;
+    left: 14%;
+}
+#barra_cima {   
+    z-index: 6;
+    background-color: #97cbd4;
+    width: 50%;
+    height: 180px;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    opacity: 0.8;
+}
+#problema {
+    font-size: 100%;
+    position: fixed;
+    left: 32%;
+    top: 37%;
+}
+#ticket {
+    position: fixed;
+    top: 47%;
+    left: 26.15%;
+    background-color: #c2c2c2;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+#status {
+    position: fixed;
+    font-size: 15px;
+    left: 67.8%;
+    top: 31%;
+}
+#ativo {
+    position: fixed;
+    left: 70.5%;
+    top: 30.5%;
+    width: 30px;
+    height: 30px;
+}
+#user {
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    top: 33%;
+    left: 26%;
+} 
+#nome {
+    position: fixed;
+    top: 32%;
+    left: 31.90%;
+    font-size: 20px;
 }
