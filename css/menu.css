@@ -122,6 +122,6 @@ main{
 
 
 #DontClickThis{
-    visibility: visible;
+    visibility: hidden;
 }
 /* shh */
