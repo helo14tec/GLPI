@@ -4,7 +4,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    max-width: 1200px;
 }
 
 body,html {
@@ -20,16 +19,14 @@ main {
     overflow: visible;
 }
 #menu1 {
-    position: fixed;
     background: #97CBD4;
-    width: 13.1%;
+    width: 20%;
     height: 100%;
     font-size: 16px;
     overflow: hidden;
     top: 0px;
     left: 0px;
     float: left;
-    z-index: 100;
 }  
 #MenuIcon{
     width: 60%;
@@ -71,12 +68,10 @@ main {
 #texto_botao1 {
     font-family: sans-serif;
 }
+/* Informações do menu Horizontal */
 #menu2 {
-    max-width: 5000px;
-    width: 2500px;
-    height: 75px;
-    left: 330px;
-    position: fixed;
+    width: 80%;
+    height: 10%;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -86,59 +81,55 @@ main {
     text-align: center;
 }
 #menu2 a{
-    height: 50px;
-    float: left;
+    height: 100%;
+    max-width: 6em;
     background-color: #ddd;
     color: black;
-    padding: 25px 40px 0;
     font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
+/* Opção de adicionar e botões */
+#adicionar {
+    font-size: 25px;
+    margin-top: 2%;
+    float: left;
+    margin-left: 1%;
+}
+#acompanhamento {
+    width: 120px;
+    height: 25px;
+    background-color: #c2c2c2;
+}
+#documento {
+    width: 80px;
+    height: 25px;
+    background-color: #c2c2c2;
+}
+.botaoadicionar{ /* Generaliza os botões para economizar linhas */
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+
+/* Linha pontilhada para decoração */
 #pontos_deco {
-    z-index: 7;
-    position:fixed;
+    z-index: 2;
     top: 22%;
     left: 255px;
     font-size: 20px;
     opacity: 0.5;
 }
-#adicionar {
-    z-index: 7;
-    font-size: 25px;
-    position: fixed;
-    top: 14%;
-    left: 14%;
-}
-#acompanhamento {
-    width: 120px;
-    height: 25px;
-    position: fixed;
-    top: 135px;
-    left: 18.5%;
-    background-color: #c2c2c2;
-}
-#acompanhamento:hover {
-    background-color: #d1d1d1;
-    cursor: pointer;
-}
-#documento {
-    width: 80px;
-    height: 25px;
-    position: fixed;
-    top: 135px;
-    left: 25%;
-    background-color: #c2c2c2;
-}
-#documento:hover {
-    background-color: #d1d1d1;
-    cursor: pointer;
-}
+
+/* Texto de histórico */
 #historico {
-    z-index: 7;
     font-size: 25px;
-    position: fixed;
-    top: 25%;
-    left: 14%;
+    display: block;
 }
+
+/* Área do menu com a tabela */
 #barra_cima {   
     z-index: 6;
     background-color: #97cbd4;
