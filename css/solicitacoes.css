@@ -180,6 +180,7 @@ main {
     height: 2.9%;
 }
 #user {
+    min-width: 5%;
     width: 5%;
     height: 13%;
     position: fixed;
