@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     max-width: 1200px;
+    max-height: 1200px;
 }
 
 body,html {
@@ -75,7 +76,7 @@ main {
     max-width: 200%;
     width: 182.4%;
     height: 8%;
-    left: 27.50%;
+    left: 15.3em;
     position: relative;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -112,11 +113,11 @@ main {
     left: 14%;
 }
 #acompanhamento {
-    width: 5%;
+    width: 6%;
     height: 2.5%;
     position: fixed;
     top: 14.5%;
-    left: 18.5%;
+    left: 20%;
     background-color: #c2c2c2;
 }
 #acompanhamento:hover {
@@ -128,7 +129,7 @@ main {
     height: 2.5%;
     position: fixed;
     top: 14.5%;
-    left: 25%;
+    left: 27%;
     background-color: #c2c2c2;
 }
 #documento:hover {
@@ -145,6 +146,10 @@ main {
 #barra_cima {   
     z-index: 6;
     background-color: #97cbd4;
+    min-width: 50%;
+    min-height: 20%;
+    max-width: 60%;
+    max-height: 30%;
     width: 50%;
     height: 20%;
     position: fixed;
@@ -174,13 +179,14 @@ main {
 }
 #ativo {
     position: fixed;
-    left: 70.5%;
+    left: 71.5%;
     top: 30.5%;
     width: 1.2%;
     height: 2.9%;
 }
 #user {
     min-width: 5%;
+    min-height: 1.5%;
     width: 5%;
     height: 13%;
     position: fixed;
