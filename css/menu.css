@@ -110,7 +110,10 @@ main{
     text-align: center;
     color: #575757;
     flex-direction: column;
-    margin-top: 120%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1%;
+    margin-left: 1%;
 }
 .nocursorselect {
     -webkit-touch-callout: none;
