@@ -15,7 +15,7 @@ main{
     height: 100%;
     background: #f5f7fb;
     margin: auto;
-    overflow: visible;
+    overflow: hidden;
 }
 #MenuVertical{
         background: #97CBD4;
@@ -68,6 +68,10 @@ main{
     display: flex; /* Para centralizar o texto */
     align-items: center; 
     justify-content: center; /* Para centralizar o texto */
+}
+#MenuHorizontal a:hover{
+    cursor: pointer;
+    background-color: #8a8a8a;
 }
 .content {
     width: 78%;
